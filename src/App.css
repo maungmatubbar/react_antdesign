@@ -429,6 +429,15 @@ img {
   align-items: center;
   position: relative;
 }
+.ant-input-lg {
+  border-radius: 0; 
+}
+.ant-btn.ant-btn-lg {
+  border-radius: 0; 
+}
+.ant-btn {
+  border-radius: 0; 
+}
 
 /* tabs */
 .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,

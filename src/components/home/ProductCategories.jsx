@@ -69,7 +69,7 @@ const ProductCategories = () => {
             <h2>Product Categories</h2>
             <Row gutter={24}>
                {productCategories && productCategories.map((productCategory,index)=>(
-                 <Col lg={4} key={index}>
+                 <Col xs={12} sm={8} lg={4} key={index}>
                     <div className="content">
                         <div className="image">
                             <img src={productCategory.image} alt="product-category" />

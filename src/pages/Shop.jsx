@@ -94,7 +94,7 @@ const Shop = () => {
           </div>
           <Row gutter={24}>
                 {products && products.map((product,index)=>(
-                    <Col lg={6} key={index}>
+                    <Col xs={12} sm={8} lg={6} key={index}>
                         <div className="content">
                             <div className="image">
                                 <img src={product.image} alt="" />

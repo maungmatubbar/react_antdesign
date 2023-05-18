@@ -6,8 +6,8 @@ const Information = () => {
   return (
     <>
         <div className='block informationBlock'>
-            <Row gutter={24}>
-                <Col lg={12}>
+            <Row gutter={[24, 24]}>
+                <Col xs={24} lg={12}>
                     <div className='holder' style={{
                         backgroundImage: `url(${bgImg1})`,
                         backgroundRepeat: 'no-repeat'
@@ -16,7 +16,7 @@ const Information = () => {
                         <div className='price'>$60</div>
                     </div>
                 </Col>
-                <Col lg={12}>
+                <Col xs={24} lg={12}>
                     <div className='holder' style={{
                         backgroundImage: `url(${bgImg2})`,
                         backgroundRepeat: 'no-repeat'

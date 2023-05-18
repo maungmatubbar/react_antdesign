@@ -26,10 +26,10 @@ const TopBrands = () => {
             <h3>
                 TopBrands
             </h3>
-            <Row>
+            <Row gutter={24}>
                 {products && products.map((product)=>{
                     return (
-                        <Col lg={6} key={product.key}>
+                        <Col xs={6} sm={6} lg={6} key={product.key}>
                             <div className="content">
                                 <div className="image">
                                     <img src={product.image} alt="" />

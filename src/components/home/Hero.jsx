@@ -4,8 +4,8 @@ const Hero = () => {
   return (
     <>
         <div className='heroBlock'>
-            <Row gutter={24}>
-                <Col lg={18}>
+            <Row gutter={[24, 24]}>
+                <Col xs={24} lg={18}>
                     <Carousel autoplay autoplaySpeed={2000}>
                         <div>
                         <img src="./assets/images/banner-img1.jpg" alt="Carousel" />
@@ -18,7 +18,7 @@ const Hero = () => {
                         </div>
                     </Carousel>
                 </Col>
-                <Col lg={6}>
+                <Col xs={24} lg={6}>
                     <div className="heroBlocks">
                         <div className="holder">
                             <div className="icon"><i className='fa-solid fa-truck'></i></div>

@@ -34,7 +34,7 @@ const FooterWidget = () => {
         <div className="footerWidget">
             <div className='container'>
                 <Row gutter={24}>
-                    <Col md={6}>
+                    <Col xs={24} sm={12} md={6}>
                         <h3>Featured</h3>
                         <List
                             itemLayout="horizontal"
@@ -50,7 +50,7 @@ const FooterWidget = () => {
                             )}
                         />
                     </Col>
-                    <Col md={6}>
+                    <Col xs={24} sm={12} md={6}>
                         <h3>Top Rated</h3>
                             <List
                                 itemLayout="horizontal"
@@ -66,7 +66,7 @@ const FooterWidget = () => {
                                 )}
                             />
                     </Col>
-                    <Col md={6}>
+                    <Col xs={24} sm={12} md={6}>
                         <h3>Tags</h3>
                         <div className='tags'>
                             <Tag closable color="volcano"><a href="https://github.com/ant-design/ant-design/issues/1862">Frozen</a></Tag>
@@ -75,7 +75,7 @@ const FooterWidget = () => {
                             <Tag closable color="magenta"><a href="https://github.com/ant-design/ant-design/issues/1862">Chocolates</a></Tag>
                         </div>
                     </Col>
-                    <Col md={6}>
+                    <Col xs={24} sm={12} md={6}>
                         <h3>Recent Post</h3>
                         <List
                             size='small'
