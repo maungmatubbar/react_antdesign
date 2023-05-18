@@ -1,4 +1,4 @@
-import { Card, Col, Row } from 'antd';
+import { Col, Row } from 'antd';
 import React from 'react';
 import bgImg1 from '../../assets/images/ad-img1.png';
 import bgImg2 from '../../assets/images/ad-img2.png';
