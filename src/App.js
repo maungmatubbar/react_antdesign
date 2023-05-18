@@ -8,6 +8,7 @@ import About from './pages/About';
 import Shop from './pages/Shop';
 import Faq from './pages/Faq';
 import Contact from './pages/Contact';
+import FooterWidget from './components/includes/FooterWidget';
 const { Header, Footer, Content } = Layout;
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             </Content>
           </Router>
           <Footer>
+            <FooterWidget/>
             <AppFooter/>
           </Footer>
         </Layout>

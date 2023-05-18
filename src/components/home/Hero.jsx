@@ -6,7 +6,7 @@ const Hero = () => {
         <div className='heroBlock'>
             <Row gutter={24}>
                 <Col lg={18}>
-                    <Carousel>
+                    <Carousel autoplay autoplaySpeed={2000}>
                         <div>
                         <img src="./assets/images/banner-img1.jpg" alt="Carousel" />
                         </div>
